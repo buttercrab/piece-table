@@ -1,0 +1,15 @@
+[package]
+name = "piece-table"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ghost-cell = "0.2.2"
+static-rc = "0.4.1"
+bitflags = "1.3.2"
+
+[features]
+default = []
+no-std = []
